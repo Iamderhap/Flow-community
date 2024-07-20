@@ -11,7 +11,7 @@ const Section1 = () => {
         <div className='font-semibold'>
           <h3>Global partners that trusted us</h3>
         </div>
-        <div className='flex gap-[30px]'>
+        <div className='flex flex-wrap gap-[30px]'>
            <img src={logo1} alt="" /> 
            <img src={logo2} alt="" /> 
            <img src={logo3} alt="" /> 

@@ -22,13 +22,13 @@ const About = () => {
         </div>
       </div>
      </section>
-     <section className='flex flex-col gap-[5vw]'>
-        <div className='flex w-[100%] justify-between'>
-           <img src={psolar} alt="image" />
-           <img src={water} alt="image" />
-           <img src={field} alt="image" />
-           <img src={tissle} alt="image" />
-           <img src={ocean} alt="image" />
+     <section className='flex flex-col'>
+        <div className='flex flex-wrap justify-center gap-[20px]'>
+           <img className='w-[20%] h-[60vh]' src={psolar} alt="image" />
+           <img className='w-20%] h-[60vh]' src={water} alt="image" />
+           <img className='w-[20%] h-[60vh]' src={field} alt="image" />
+           <img className='w-[20%] h-[60vh]' src={tissle} alt="image" />
+           <img className='w-[20%]h-[50vh]' src={ocean} alt="image" />
         </div>
         <div className='flex justify-around '>
            <div className='flex flex-col text-start'>
@@ -36,16 +36,16 @@ const About = () => {
              <p className='text-[10px]'>Renewable Energy Generated</p>
            </div>
            <div className='flex flex-col items-center'>
-             <p className='font-semibold'>2,500+</p>
-             <p>Metric Tons of CO2 Reduced</p>
+             <p className='font-semibold text-[25px]'>2,500+</p>
+             <p className='text-[10px]'>Metric Tons of CO2 Reduced</p>
            </div>
            <div>
-             <p className='font-semibold'>10,000+</p>
-             <p>Customers Served</p>
+             <p className='font-semibold text-[25px]'>10,000+</p>
+             <p className='text-[12px]'>Customers Served</p>
            </div>
            <div>
-             <p className='font-semibold'>15%</p>
-             <p>Avg. Energy Saved</p>
+             <p className='font-semibold text-[25px] text-center'>15%</p>
+             <p className='text-[10px]'>Avg. Energy Saved</p>
            </div>
         </div>
      </section>
